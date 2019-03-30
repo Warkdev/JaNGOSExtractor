@@ -1,4 +1,4 @@
-# JaNGOSExtractor  [![Build status](https://travis-ci.com/Warkdev/JaNGOSExtractor.svg?branch=master)][1]
+# JaNGOSExtractor  [![Build status](https://travis-ci.com/Warkdev/JaNGOSExtractor.svg?branch=master)][1] [![Jit](https://jitpack.io/v/warkdev/JaNGOSExtractor.svg)][5] [![Coverage Status](https://coveralls.io/repos/github/Warkdev/JaNGOSExtractor/badge.svg?branch=master)][6] [![Codebeat badge](https://codebeat.co/badges/5ccfd060-8d57-4a51-9c6b-2688482f857e)][7] [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FWarkdev%2FJaNGOSExtractor.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FWarkdev%2FJaNGOSExtractor?ref=badge_shield)
 JaNGOSExtractor is a java library extracting WoW data from the client version 1.12.x. See the [Javadoc][2] for more information.
 
 This library is using the excellent Java library [JMPQ3][3] to manage MPQ's. Don't hesitate to raise an issue in the [tracker][4] if you notice any suspect behavior.
@@ -16,3 +16,6 @@ The full license is included in the file License.md.
 [2]: https://warkdev.github.io/JaNGOSExtractor/apidocs/ "JaNGOS Extractor javadoc"
 [3]: https://github.com/inwc3/JMPQ3/ "JMPQ3 Library"
 [4]: https://github.com/JaNGOSExtractor/issues/ "JaNGOS Extractor Issues"
+[5]: https://jitpack.io/#warkdev/Utils "JaNGOS Extractor Jitpack"
+[6]: https://coveralls.io/github/Warkdev/JaNGOSExtractor?branch=master "JaNGOS Extractor Coverage status"
+[7]: https://codebeat.co/projects/github-com-warkdev-jangosextractor-master "JaNGOS Extractor Codebeat status"
