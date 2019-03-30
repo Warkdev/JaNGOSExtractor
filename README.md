@@ -16,6 +16,6 @@ The full license is included in the file License.md.
 [2]: https://warkdev.github.io/JaNGOSExtractor/apidocs/ "JaNGOS Extractor javadoc"
 [3]: https://github.com/inwc3/JMPQ3/ "JMPQ3 Library"
 [4]: https://github.com/JaNGOSExtractor/issues/ "JaNGOS Extractor Issues"
-[5]: https://jitpack.io/#warkdev/Utils "JaNGOS Extractor Jitpack"
+[5]: https://jitpack.io/#warkdev/JaNGOSExtractor "JaNGOS Extractor Jitpack"
 [6]: https://coveralls.io/github/Warkdev/JaNGOSExtractor?branch=master "JaNGOS Extractor Coverage status"
 [7]: https://codebeat.co/projects/github-com-warkdev-jangosextractor-master "JaNGOS Extractor Codebeat status"
