@@ -16,6 +16,7 @@
  */
 package eu.jangos.extractor.file.adt.chunk;
 
+import eu.jangos.test.utils.ByteBufferUtils;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -53,17 +54,7 @@ public class MCINTest {
     
     @AfterEach
     public void tearDown() {
-    }
-
-    private ByteBuffer getByteBuffer(String resource) throws FileNotFoundException, IOException {
-        File file = new File(MCINTest.class.getClassLoader().getResource(resource).getFile());
-        if(!file.exists()) {
-            fail("File does not exist");
-        }
-        ByteBuffer in = ByteBuffer.wrap(new FileInputStream(file).readAllBytes());
-        in.order(ByteOrder.LITTLE_ENDIAN);
-        return in;
-    }
+    }    
     
     /**
      * Test of read method, of class MCIN.
@@ -73,7 +64,7 @@ public class MCINTest {
         System.out.println("read");
         
         MCIN instance = new MCIN();
-        ByteBuffer in = getByteBuffer("legit/adt/MCIN/mcin001");
+        ByteBuffer in = ByteBufferUtils.getByteBuffer("legit/adt/MCIN/mcin001");
         instance.read(in);
         assertEquals(18, instance.getOffsetMCNK());
         assertEquals(38, instance.getSize());
@@ -86,9 +77,9 @@ public class MCINTest {
         System.out.println("read");
         
         MCIN instance = new MCIN();
-        ByteBuffer in = getByteBuffer("legit/adt/MCIN/mcin002");
+        ByteBuffer in = ByteBufferUtils.getByteBuffer("legit/adt/MCIN/mcin002");
         assertThrows(BufferUnderflowException.class, () -> {
             instance.read(in);
-        });
+        });        
     }
 }
