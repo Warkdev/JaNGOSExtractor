@@ -34,7 +34,7 @@ public class MCINTest {
      * Test of read method, of class MCIN.
      */
     @Test
-    public void testRead() throws FileNotFoundException, IOException {
+    public void testRead() throws IOException {
         System.out.println("read");
         
         MCIN instance = new MCIN();
@@ -47,7 +47,7 @@ public class MCINTest {
     }
     
     @Test
-    public void testReadWrongMCIN() throws FileNotFoundException, IOException {
+    public void testReadWrongMCIN() throws IOException {
         System.out.println("read");
         
         MCIN instance = new MCIN();
