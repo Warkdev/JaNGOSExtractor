@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8332fdd2383c485787b71bfea49090dc)](https://app.codacy.com/app/Warkdev/JaNGOSExtractor?utm_source=github.com&utm_medium=referral&utm_content=Warkdev/JaNGOSExtractor&utm_campaign=Badge_Grade_Dashboard)
 # JaNGOSExtractor  [![Build status](https://travis-ci.com/Warkdev/JaNGOSExtractor.svg?branch=master)][1] [![Jit](https://jitpack.io/v/warkdev/JaNGOSExtractor.svg)][5] [![Coverage Status](https://coveralls.io/repos/github/Warkdev/JaNGOSExtractor/badge.svg?branch=master)][6] [![Codebeat badge](https://codebeat.co/badges/5ccfd060-8d57-4a51-9c6b-2688482f857e)][7] [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FWarkdev%2FJaNGOSExtractor.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FWarkdev%2FJaNGOSExtractor?ref=badge_shield)
 JaNGOSExtractor is a java library extracting WoW data from the client version 1.12.x. See the [Javadoc][2] for more information.
 
