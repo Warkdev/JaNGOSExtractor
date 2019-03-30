@@ -35,8 +35,6 @@ public class MCINTest {
      */
     @Test
     public void testRead() throws IOException {
-        System.out.println("read");
-        
         MCIN instance = new MCIN();
         ByteBuffer in = ByteBufferUtils.getByteBuffer("legit/adt/MCIN/mcin001");
         instance.read(in);
@@ -48,8 +46,6 @@ public class MCINTest {
     
     @Test
     public void testReadWrongMCIN() throws IOException {
-        System.out.println("read");
-        
         MCIN instance = new MCIN();
         ByteBuffer in = ByteBufferUtils.getByteBuffer("legit/adt/MCIN/mcin002");
         assertThrows(BufferUnderflowException.class, () -> {
