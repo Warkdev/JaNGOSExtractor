@@ -34,8 +34,7 @@ public class MCLYTest {
      * Test of read method, of class MCLY.
      */
     @Test
-    public void testRead() throws IOException {
-        System.out.println("read");
+    public void testRead() throws IOException {        
         ByteBuffer in = ByteBufferUtils.getByteBuffer("legit/adt/MCLY/mcly001");
         MCLY instance = new MCLY();
         instance.read(in);
