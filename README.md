@@ -1,4 +1,4 @@
-# JaNGOSExtractor  [![Build status](https://travis-ci.org/Warkdev/JaNGOSExtractor.png)][1]
+# JaNGOSExtractor  [![Build status](https://travis-ci.com/Warkdev/JaNGOSExtractor.svg?branch=master)][1]
 JaNGOSExtractor is a java library extracting WoW data from the client version 1.12.x. See the [Javadoc][2] for more information.
 
 This library is using the excellent Java library [JMPQ3][3] to manage MPQ's. Don't hesitate to raise an issue in the [tracker][4] if you notice any suspect behavior.
