@@ -54,3 +54,7 @@ release.properties
 pom.xml.releaseBackup
 pom.xml.tag
 /nbproject/
+
+# Testing data
+
+src/test/resources/blizzard
