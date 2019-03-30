@@ -17,17 +17,10 @@
 package eu.jangos.extractor.file.adt.chunk;
 
 import eu.jangos.test.utils.ByteBufferUtils;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -35,26 +28,7 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * @author Warkdev
  */
-public class MCINTest {
-    
-    public MCINTest() {
-    }
-    
-    @BeforeAll
-    public static void setUpClass() {
-    }
-    
-    @AfterAll
-    public static void tearDownClass() {
-    }
-    
-    @BeforeEach
-    public void setUp() {
-    }
-    
-    @AfterEach
-    public void tearDown() {
-    }    
+public class MCINTest {    
     
     /**
      * Test of read method, of class MCIN.

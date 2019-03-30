@@ -31,9 +31,17 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ByteBufferUtils {
     
     public static ByteBuffer getByteBuffer(String resource) throws FileNotFoundException, IOException {
+        return getByteBuffer(resource, true);
+    }
+    
+    public static ByteBuffer getByteBuffer(String resource, boolean failOnError) throws FileNotFoundException, IOException {
         File file = new File(ByteBufferUtils.class.getClassLoader().getResource(resource).getFile());
         if(!file.exists()) {
-            fail("File does not exist");
+            if(failOnError) {
+                fail("File does not exist");
+            } else {
+                return ByteBuffer.allocate(0);
+            }
         }
         ByteBuffer in = ByteBuffer.wrap(new FileInputStream(file).readAllBytes());
         in.order(ByteOrder.LITTLE_ENDIAN);
