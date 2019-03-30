@@ -15,17 +15,17 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 module eu.jangos.extractor {
-    requires logback.classic;
-    requires logback.core;
-    requires slf4j.api;    
-    requires obj;
-    requires eu.jangos.utils;
-    requires org.apache.commons.io;
-    requires org.apache.commons.lang3;    
-    requires javafx.controls;            
-    requires systems.crigges.jmpq;
-    requires javafx.swing;
-        
+    requires static logback.classic;
+    requires static logback.core;
+    requires static slf4j.api;    
+    requires static obj;
+    requires static eu.jangos.utils;
+    requires static org.apache.commons.io;
+    requires static org.apache.commons.lang3;    
+    requires static javafx.controls;            
+    requires static systems.crigges.jmpq;
+    requires static javafx.swing;
+              
     exports eu.jangos.extractor.file;
     exports eu.jangos.extractor.file.exception;
     exports eu.jangos.extractor.file.impl;
