@@ -30,4 +30,5 @@ module eu.jangos.extractor {
     exports eu.jangos.extractor.file.exception;
     exports eu.jangos.extractor.file.impl;
     exports eu.jangos.extractor.rendering;
+    exports eu.jangos.extractor.file.mpq;
 }
