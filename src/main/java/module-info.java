@@ -25,7 +25,9 @@ module eu.jangos.extractor {
     requires static javafx.controls;            
     requires static systems.crigges.jmpq;
     requires static javafx.swing;
-              
+    requires static dagger;
+    requires static javax.inject;
+    
     exports eu.jangos.extractor.file;
     exports eu.jangos.extractor.file.exception;
     exports eu.jangos.extractor.file.impl;
