@@ -1,0 +1,33 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: com.google.dagger:dagger-compiler
+    versions:
+    - 2.31.2
+    - "2.32"
+    - "2.33"
+    - "2.34"
+    - 2.34.1
+    - "2.35"
+  - dependency-name: com.google.dagger:dagger
+    versions:
+    - 2.31.2
+    - "2.32"
+    - "2.33"
+    - "2.34"
+    - 2.34.1
+    - "2.35"
+  - dependency-name: org.junit.jupiter:junit-jupiter
+    versions:
+    - 5.7.0
+  - dependency-name: org.openjfx:javafx-controls
+    versions:
+    - 15.0.1
+  - dependency-name: org.openjfx:javafx-swing
+    versions:
+    - 15.0.1
